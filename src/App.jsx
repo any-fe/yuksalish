@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home    from "./pages/Home/home";
-import Contact from "./pages/contact/contact";
-import Courses from "./pages/courses/courses";
+import Contact from "./pages/Contact/contact";
+import Courses from "./pages/Courses/courses";
 import About   from "./pages/About/about";
 import './index.css';
 
