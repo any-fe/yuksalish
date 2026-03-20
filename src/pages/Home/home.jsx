@@ -20,7 +20,7 @@ import imgGerman from "../../assets/images/Container (2).png";
 import imgArith from "../../assets/images/Container (3).png";
 import imgData from "../../assets/images/Container (4).png";
 
-import Header from "../../components/Header/Header";
+import Header from "../../components/header";
 
 /* testimonial avatars */
 import avatarUser from "../../assets/images/User 2.png";

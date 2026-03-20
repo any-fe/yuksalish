@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import './aboout.css';
 
-import Header from "../../components/Header/Header";
+import Header from "../../components/header";
 
 /* ── assets ── */
 import logo from "../../assets/images/yuksalish-logo.svg";

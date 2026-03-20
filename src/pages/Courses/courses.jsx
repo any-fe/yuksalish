@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import './courses.css';
 
-import Header from "../../components/Header/Header";
+import Header from "../../components/header";
 
 import logo from "../../assets/images/yuksalish-logo.svg";
 import imgFrontend from "../../assets/images/Background (4).svg";
