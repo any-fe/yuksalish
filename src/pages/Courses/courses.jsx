@@ -241,6 +241,7 @@ export default function Courses() {
                 </div>
             </section>
 
+            
             {/* ══ FOOTER ══ */}
             <footer className="footer">
                 <div className="wrap">
