@@ -15,9 +15,22 @@
 }
 
 body {
-  font-family: "Inter", "Segoe UI", sans-serif;
   background: #fff;
 }
+
+p {
+  font-family: 'Mancrope';
+}
+
+h1 {
+  font-family: 'Mancrope-bold';
+}
+
+a {
+  font-family: 'Mancrope';
+}
+
+
 
 a {
   text-decoration: none;

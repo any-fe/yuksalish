@@ -111,24 +111,24 @@ export default function Home() {
                 <div className="wrap">
                     <div className="hero-g">
                         <div>
-                            <div className="hero-badge"><span className="pulse"></span>New cohort starting soon</div>
-                            <h1>Build skills for <em>real careers</em> in IT and Languages</h1>
-                            <p className="hero-sub">Master programming, English, German, and Mental Arithmetic with expert mentors at YuksalishLC. Start your journey to a global career today.</p>
-                            <div className="hero-btns">
+                            <div className="hero-badge"  data-aos="fade-right"><span className="pulse"></span>New cohort starting soon</div>
+                            <h1  data-aos="fade-right">Build skills for <em>real careers</em> in IT and Languages</h1>
+                            <p className="hero-sub"  data-aos="fade-right">Master programming, English, German, and Mental Arithmetic with expert mentors at YuksalishLC. Start your journey to a global career today.</p>
+                            <div className="hero-btns"  data-aos="fade-right">
                                 <button className="btn-dark">View Courses</button>
                                 <button className="btn-light">Book a Free Trial</button>
                             </div>
                             <div className="proof">
                                 <div className="avatars">
-                                    <img className="students-img" src={brotherImg} alt="students" />
+                                    <img  data-aos="fade-right" className="students-img" src={brotherImg} alt="students" />
                                 </div>
                                 <div className="proof-txt">
-                                    <img src={starsImg} alt="stars" className="stars" />
-                                    <p>Trusted by 2,000+ students</p>
+                                    <img  data-aos="fade-right" src={starsImg} alt="stars" className="stars" />
+                                    <p  data-aos="fade-right">Trusted by 2,000+ students</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="hero-media">
+                        <div className="hero-media" data-aos="fade-up">
                             <div className="hero-pic"><img src={heroImg} alt="Students learning" /></div>
                             <div className="stat-badge">
                                 <div className="num">98%</div>
@@ -142,7 +142,7 @@ export default function Home() {
             {/* ══ STATS ══ */}
             <section className="stats-bar">
                 <div className="wrap">
-                    <div className="stats-ggs">
+                    <div className="stats-ggs" data-aos="fade-up">
                         {[["1,200+", "Active Students"], ["15+", "Courses Offered"], ["40+", "Expert Mentors"], ["85%", "Job Placement"]].map(([v, l]) => (
                             <div key={l}><div className="sv">{v}</div><div className="sl">{l}</div></div>
                         ))}
@@ -154,10 +154,10 @@ export default function Home() {
             <section className="why">
                 <div className="wrap">
                     <div className="sec-head">
-                        <h2>Why Choose <em>YuksalishLC</em>?</h2>
-                        <p>We provide more than just education; we provide a pathway to your future with industry-standard tools and mentorship.</p>
+                        <h2  data-aos="flip-up">Why Choose <em>YuksalishLC</em>?</h2>
+                        <p  data-aos="flip-up">We provide more than just education; we provide a pathway to your future with industry-standard tools and mentorship.</p>
                     </div>
-                    <div className="why-g">
+                    <div className="why-g" data-aos="flip-down">
                         {[
                             { t: "Expert Mentors", d: "Learn from professionals currently working in top tech companies and language institutes.", svg: <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" /> },
                             { t: "Career Support", d: "Resume building, interview prep, and direct connections to hiring partners to get you hired.", svg: <path d="M20 6h-2.18c.07-.44.18-.88.18-1.33C18 2.53 15.48 1 13 1c-1.32 0-2.6.53-3.54 1.46L8 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7.5 11.5L9 14l1.41-1.41 2.09 2.08 4.59-4.58L18.5 11.5l-6 6z" /> },
@@ -177,10 +177,10 @@ export default function Home() {
             <section className="courses">
                 <div className="wrap">
                     <div className="c-hdr">
-                        <div><h2>Explore Our <em>Top Courses</em></h2><p>Curriculum designed to get you job-ready.</p></div>
-                        <button className="view-all-btn">View All Courses <IcoArrow /></button>
+                        <div  data-aos="zoom-in"><h2>Explore Our <em>Top Courses</em></h2><p>Curriculum designed to get you job-ready.</p></div>
+                        <button  data-aos="zoom-out-down" className="view-all-btn">View All Courses <IcoArrow /></button>
                     </div>
-                    <div className="courses-g">
+                    <div className="courses-g"  data-aos="zoom-in">
                         {COURSES.map(({ title, dur, desc, img }) => (
                             <div className="c-card" key={title}>
                                 <div className="c-thumb">
@@ -203,10 +203,10 @@ export default function Home() {
             <section className="path">
                 <div className="wrap">
                     <div className="sec-head">
-                        <h2>Your Path to <em>Success</em></h2>
-                        <p>A structured journey designed to take you from beginner to professional.</p>
+                        <h2  data-aos="zoom-in-up">Your Path to <em>Success</em></h2>
+                        <p  data-aos="zoom-in-up">A structured journey designed to take you from beginner to professional.</p>
                     </div>
-                    <div className="steps-g">
+                    <div className="steps-g"  data-aos="zoom-out-down">
                         {[
                             { n: 1, t: "Consultation", d: "Identify your goals and choose the right course.", act: true },
                             { n: 2, t: "Enrollment", d: "Sign up and get access to learning materials." },
@@ -226,8 +226,8 @@ export default function Home() {
             {/* ══ TESTIMONIALS ══ */}
             <section className="testi">
                 <div className="wrap">
-                    <div className="sec-head"><h2>What our <em>Students Say</em></h2></div>
-                    <div className="testi-g">
+                    <div data-aos="zoom-out" className="sec-head"><h2>What our <em>Students Say</em></h2></div>
+                    <div className="testi-g" data-aos="zoom-out">
                         {TESTIMONIALS.map(({ name, role, img, q }) => (
                             <div className="t-card" key={name}>
                                 <div className="t-q">"</div>
@@ -245,9 +245,9 @@ export default function Home() {
             {/* ══ FAQ ══ */}
             <section className="faq">
                 <div className="wrap">
-                    <div className="sec-head"><h2>Frequently Asked Questions</h2></div>
+                    <div data-aos="zoom-in-up" className="sec-head"><h2>Frequently Asked Questions</h2></div>
                     <div className="faq-wrap">
-                        <div className="faq-list">
+                        <div className="faq-list" data-aos="zoom-in-up">
                             {FAQS.map(({ q, a }, i) => (
                                 <div className="faq-row" key={q}>
                                     <button className="faq-q" onClick={() => setOpenFaq(openFaq === i ? null : i)}>
@@ -264,10 +264,10 @@ export default function Home() {
             {/* ══ CTA ══ */}
             <section className="cta">
                 <div className="wrap">
-                    <div className="cta-box">
+                    <div className="cta-box" data-aos="zoom-in-up">
                         <div className="cta-b1" /><div className="cta-b2" />
                         <div className="cta-in">
-                            <div className="cta-txt">
+                            <div className="cta-txt" data-aos="zoom-in-up">
                                 <h2>Ready to start your journey?</h2>
                                 <p>Join over 1,200 students transforming their lives with YuksalishLC today.</p>
                                 <div className="cta-checks">
@@ -276,7 +276,7 @@ export default function Home() {
                                     ))}
                                 </div>
                             </div>
-                            <div className="cta-form-wrap">
+                            <div className="cta-form-wrap" data-aos="zoom-in-up">
                                 <h3>Request a Call Back</h3>
                                 <div className="cta-form">
                                     <input className="f-inp" placeholder="Your Name" type="text" />
@@ -293,7 +293,7 @@ export default function Home() {
             <footer className="home-footer">
                 <div className="wrap">
                     <div className="footer-g">
-                        <div className="f-brand">
+                        <div className="f-brand" data-aos="flip-up">
                             <img className="logo" src={logo} alt="YuksalishLC" />
                             <p>Empowering the next generation with cutting-edge IT skills and global languages.</p>
                             <div className="footer-logo-box">
@@ -302,22 +302,22 @@ export default function Home() {
                                 <NavLink href="#" className="footer-logo"><img src={twiter} alt="" /></NavLink>
                             </div>
                         </div>
-                        <div className="f-col">
+                        <div className="f-col" data-aos="flip-up">
                             <h4 className="footer-h4">Courses</h4>
                             <ul>{["Full Stack Development", "General English", "German Language", "UI/UX Design", "Mental Arithmetic"].map(i => <li key={i}><a href="#">{i}</a></li>)}</ul>
                         </div>
-                        <div className="f-col">
+                        <div className="f-col" data-aos="flip-up">
                             <h4 className="footer-h4">Quick Links</h4>
                             <ul>{["About Us", "Our Mentors", "Events & Workshops", "Blog", "Contact"].map(i => <li key={i}><a href="#">{i}</a></li>)}</ul>
                         </div>
-                        <div className="f-col">
+                        <div className="f-col" data-aos="flip-up">
                             <h4 className="footer-h4">Contact Us</h4>
                             <div className="f-ci"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg><span>123 Education Ave, Innovation District, Tashkent, Uzbekistan</span></div>
                             <div className="f-ci"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" /></svg><span>+998 90 123 45 67</span></div>
                             <div className="f-ci"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" /></svg><span>info@yuksalishlc.uz</span></div>
                         </div>
                     </div>
-                    <div className="f-bot">
+                    <div className="f-bot" data-aos="flip-up">
                         <p>© 2023 YuksalishLC. All rights reserved.</p>
                         <div className="f-bot-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
                     </div>

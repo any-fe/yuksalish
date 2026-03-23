@@ -83,7 +83,7 @@ export default function Contact() {
 
             <Header btnText="Enroll Now" />
             {/* ══ HERO ══ */}
-            <section className="hero">
+            <section className="hero" data-aos="fade-down">
                 <div className="wrap">
                     <h1>Contact & Enrollment</h1>
                     <p className="hero-sub">
@@ -115,7 +115,7 @@ export default function Contact() {
                     <div className="main-grid">
 
                         {/* form */}
-                        <div className="reg-card">
+                        <div className="reg-card" data-aos="fade-up">
                             <h2>Student Registration</h2>
                             <p className="sub">Fill out the form below and we will contact you shortly to confirm your registration.</p>
 
@@ -158,7 +158,7 @@ export default function Contact() {
                                 </div>
                             </div>
 
-                            <div className="f-grp">
+                            <div className="f-grp" data-aos="fade-up">
                                 <label className="f-lbl">Comments / Questions</label>
                                 <textarea className="textrae-input" placeholder="Any specific requirements?" value={form.comment} onChange={e => set("comment", e.target.value)} />
                             </div>
@@ -170,7 +170,7 @@ export default function Contact() {
                         </div>
 
                         {/* right */}
-                        <div className="right-col">
+                        <div className="right-col" data-aos="fade-up">
                             <div>
                                 <div className="faq-heading">Enrollment FAQ</div>
                                 <div className="faq-list">
@@ -199,7 +199,7 @@ export default function Contact() {
             </section>
 
             {/* ══ MAP ══ */}
-            <section className="map-sec">
+            <section className="map-sec" data-aos="fade-down">
                 <div className="wrap">
                     <div className="map-head">
                         <h2>Find Us on the Map</h2>
@@ -222,7 +222,7 @@ export default function Contact() {
             </section>
 
             {/* ══ FOOTER ══ */}
-            <div className="footer-wrap">
+            <div className="footer-wrap" data-aos="fade-up">
                 <div className="wrap">
                     <div className="footer">
                         <p className="f-copy">© 2024 Yuksalish Learning Center. All rights reserved.</p>

@@ -13,7 +13,7 @@ export default function Header({ btnText = "Enroll Now", onBtnClick }) {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="hdr">
+        <header className="hdr" data-aos="fade-down">
             <div className="wrap">
                 <div className="hdr-in">
 

@@ -60,7 +60,7 @@ export default function About() {
             <Header btnText="Enroll Now" />
 
             {/* ══ HERO ══ */}
-            <div className="hero-wrap">
+            <div className="hero-wrap" data-aos="fade-up">
                 <div className="hero-img">
                     <img className="hero-image" src={heroImg} alt="Modern Classrooms" />
                     <div className="hero-overlay" />
@@ -78,18 +78,18 @@ export default function About() {
             {/* ══ STATS ══ */}
             <section className="stats">
                 <div className="wrap">
-                    <div className="stats-g">
+                    <div className="stats-g" data-aos="fade-up">
                         <div className="stat-card">
                             <div className="stat-icon"><IcoGrad /></div>
                             <div className="stat-val">50+</div>
                             <div className="stat-lbl">Expert Teachers</div>
                         </div>
-                        <div className="stat-card">
+                        <div className="stat-card" data-aos="fade-up">
                             <div className="stat-icon"><IcoPpl /></div>
                             <div className="stat-val">1200+</div>
                             <div className="stat-lbl">Graduated Students</div>
                         </div>
-                        <div className="stat-card">
+                        <div className="stat-card" data-aos="fade-up">
                             <div className="stat-icon"><IcoTrend /></div>
                             <div className="stat-val">95%</div>
                             <div className="stat-lbl">Success Rate</div>
@@ -101,11 +101,11 @@ export default function About() {
             {/* ══ VALUES ══ */}
             <section className="values">
                 <div className="wrap">
-                    <div className="sec-title">
+                    <div className="sec-title" data-aos="zoom-in-up">
                         <h2>Our Core Values</h2>
                         <p>We believe in a disciplined approach to education that yields real-world results.</p>
                     </div>
-                    <div className="values-g">
+                    <div className="values-g" data-aos="zoom-in-up">
                         {VALUES.map(({ title, desc, img }) => (
                             <div className="val-card" key={title}>
                                 <div className="val-ico"><img src={img} alt={title} /></div>
@@ -120,14 +120,14 @@ export default function About() {
             {/* ══ MENTORS ══ */}
             <section className="mentors">
                 <div className="wrap">
-                    <div className="mentors-header">
+                    <div className="mentors-header"  data-aos="zoom-out-down">
                         <div>
                             <h2>Meet Our Mentors</h2>
                             <p>Learn from industry veterans and language experts.</p>
                         </div>
                         <button className="view-all">View All Team <IcoArrow /></button>
                     </div>
-                    <div className="mentors-g">
+                    <div className="mentors-g"  data-aos="zoom-out-down">
                         {MENTORS.map(({ name, role, img }) => (
                             <div className="mentor-card" key={name}>
                                 <div className="mentor-thumb"><img src={img} alt={name} /></div>
@@ -142,7 +142,7 @@ export default function About() {
             </section>
 
             {/* ══ GALLERY ══ */}
-            <section className="gallery">
+            <section className="gallery"  data-aos="zoom-out">
                 <div className="wrap">
                     <div className="sec-title">
                         <h2>Our Learning Environment</h2>
@@ -160,8 +160,8 @@ export default function About() {
             <section className="visit">
                 <div className="wrap d-flex">
                     <div className="visit-box">
-                        <div className="visit-left">
-                            <h2>Visit Our Center</h2>
+                        <div className="visit-left" data-aos="fade-up">
+                            <h2 >Visit Our Center</h2>
                             <p>Come see where the magic happens.<br />Schedule a tour or drop by.</p>
                             <div className="visit-items">
                                 <div className="visit-item">
@@ -188,7 +188,7 @@ export default function About() {
                             </div>
                             <button className="button-dark">Book a Tour</button>
                         </div>
-                        <div className="visit-right">
+                        <div className="visit-right" data-aos="fade-up">
                             <img src={mapImg} alt="Map location" />
                         </div>
                     </div>
@@ -196,7 +196,7 @@ export default function About() {
             </section>
 
             {/* ══ FOOTER ══ */}
-            <footer className="footer">
+            <footer className="footer" data-aos="fade-up">
                 <div className="wrap">
                     <div className="footer-bot">
                         <div className="f-logo">
